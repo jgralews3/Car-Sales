@@ -7,6 +7,6 @@ export const addFeature = (action) => {
   
   export const removeFeature = (action) => {
     console.log("Dispatching REMOVE_FEATURE: " + action.name);
-    return { type: "REMOVE_FEATURE", payload: action};
+    return { type: "REMOVE_FEATURE", payload: action };
   };
   
